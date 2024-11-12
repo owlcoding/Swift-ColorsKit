@@ -1,3 +1,6 @@
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fowlcoding%2FSwift-ColorsKit%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/owlcoding/Swift-ColorsKit)
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fowlcoding%2FSwift-ColorsKit%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/owlcoding/Swift-ColorsKit)
+
 # ColorsKit
 
 ColorsKit is a Swift library providing extensions and color palettes to work with colors in a more versatile way. It includes modules for manipulating color properties (e.g., `luminance`, `lighter`, `darker`), generating various color palettes, and creating harmonious color schemes.
