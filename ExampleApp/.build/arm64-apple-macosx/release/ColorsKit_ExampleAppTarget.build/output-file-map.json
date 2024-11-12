@@ -1,0 +1,17 @@
+{
+  "": {
+    "dependencies": "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorsKit_ExampleAppTarget.build/ColorsKit_ExampleAppTarget.d",
+    "object": "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorsKit_ExampleAppTarget.build/ColorsKit_ExampleAppTarget.o",
+    "swift-dependencies": "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorsKit_ExampleAppTarget.build/master.swiftdeps"
+  },
+  "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/ColorPalettesExample/ColorPalettesExample/ColorPalettesExampleApp.swift": {
+    "object": "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorsKit_ExampleAppTarget.build/ColorPalettesExampleApp.swift.o",
+    "swiftmodule": "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorsKit_ExampleAppTarget.build/ColorPalettesExampleApp~partial.swiftmodule",
+    "swift-dependencies": "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorsKit_ExampleAppTarget.build/ColorPalettesExampleApp.swiftdeps"
+  },
+  "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/ColorPalettesExample/ColorPalettesExample/ContentView.swift": {
+    "object": "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorsKit_ExampleAppTarget.build/ContentView.swift.o",
+    "swiftmodule": "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorsKit_ExampleAppTarget.build/ContentView~partial.swiftmodule",
+    "swift-dependencies": "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorsKit_ExampleAppTarget.build/ContentView.swiftdeps"
+  }
+}

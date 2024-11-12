@@ -1,0 +1,6 @@
+print("Hello from ColorsKit!")
+print("This is a package that provides a set of color utilities and extensions for Swift.")
+print("There's nothing useful in this executable target, but the library targets are where the magic happens.")
+print("There's also an example app target that demonstrates how to use the library targets.")
+print("Enjoy!")
+print("And if you need an app developed, I'm available for hire!")

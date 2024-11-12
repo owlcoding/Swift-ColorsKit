@@ -1,0 +1,22 @@
+{
+  "": {
+    "dependencies": "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorPalettes.build/ColorPalettes.d",
+    "object": "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorPalettes.build/ColorPalettes.o",
+    "swift-dependencies": "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorPalettes.build/master.swiftdeps"
+  },
+  "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/Sources/Color-Palettes/AnalogousPalette.swift": {
+    "object": "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorPalettes.build/AnalogousPalette.swift.o",
+    "swiftmodule": "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorPalettes.build/AnalogousPalette~partial.swiftmodule",
+    "swift-dependencies": "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorPalettes.build/AnalogousPalette.swiftdeps"
+  },
+  "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/Sources/Color-Palettes/SplitComplementaryPalette.swift": {
+    "object": "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorPalettes.build/SplitComplementaryPalette.swift.o",
+    "swiftmodule": "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorPalettes.build/SplitComplementaryPalette~partial.swiftmodule",
+    "swift-dependencies": "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorPalettes.build/SplitComplementaryPalette.swiftdeps"
+  },
+  "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/Sources/Color-Palettes/TetradicPalette.swift": {
+    "object": "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorPalettes.build/TetradicPalette.swift.o",
+    "swiftmodule": "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorPalettes.build/TetradicPalette~partial.swiftmodule",
+    "swift-dependencies": "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorPalettes.build/TetradicPalette.swiftdeps"
+  }
+}

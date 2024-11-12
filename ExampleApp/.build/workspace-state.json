@@ -1,0 +1,24 @@
+{
+  "object" : {
+    "artifacts" : [
+
+    ],
+    "dependencies" : [
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "swift-colorskit",
+          "kind" : "fileSystem",
+          "location" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit",
+          "name" : "ColorsKit"
+        },
+        "state" : {
+          "name" : "fileSystem",
+          "path" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit"
+        },
+        "subpath" : "swift-colorskit"
+      }
+    ]
+  },
+  "version" : 6
+}

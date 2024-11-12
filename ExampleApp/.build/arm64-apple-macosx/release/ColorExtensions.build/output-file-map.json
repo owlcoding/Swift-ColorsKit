@@ -1,0 +1,12 @@
+{
+  "": {
+    "dependencies": "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorExtensions.build/ColorExtensions.d",
+    "object": "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorExtensions.build/ColorExtensions.o",
+    "swift-dependencies": "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorExtensions.build/master.swiftdeps"
+  },
+  "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/Sources/Color-Extensions/Color-Extensions.swift": {
+    "object": "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorExtensions.build/Color-Extensions.swift.o",
+    "swiftmodule": "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorExtensions.build/Color-Extensions~partial.swiftmodule",
+    "swift-dependencies": "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorExtensions.build/Color-Extensions.swiftdeps"
+  }
+}

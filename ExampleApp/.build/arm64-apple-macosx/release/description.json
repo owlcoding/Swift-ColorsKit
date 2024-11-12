@@ -1,0 +1,957 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.ColorExtensions-arm64-apple-macosx15.0-release.module" : {
+      "executable" : "/Applications/Xcode-16.0.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorExtensions.build/sources",
+      "importPath" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/Sources/Color-Extensions/Color-Extensions.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/swift-version--4A847ED0836F2485.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorExtensions.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "ColorExtensions",
+      "moduleOutputPath" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/Modules/ColorExtensions.swiftmodule",
+      "objects" : [
+        "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorExtensions.build/Color-Extensions.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-O",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-module-cache-path",
+        "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorExtensions.build/ColorExtensions-Swift.h",
+        "-color-diagnostics",
+        "-swift-version",
+        "6",
+        "-sdk",
+        "/Applications/Xcode-16.0.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk",
+        "-F",
+        "/Applications/Xcode-16.0.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode-16.0.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode-16.0.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode-16.0.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode-16.0.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "swift_colorskit"
+      ],
+      "outputFileMapPath" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorExtensions.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorExtensions.build/Color-Extensions.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/Modules/ColorExtensions.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/Sources/Color-Extensions/Color-Extensions.swift"
+      ],
+      "tempsPath" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorExtensions.build",
+      "wholeModuleOptimization" : true
+    },
+    "C.ColorPalettes-arm64-apple-macosx15.0-release.module" : {
+      "executable" : "/Applications/Xcode-16.0.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorPalettes.build/sources",
+      "importPath" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/Sources/Color-Palettes/AnalogousPalette.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/Sources/Color-Palettes/SplitComplementaryPalette.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/Sources/Color-Palettes/TetradicPalette.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/swift-version--4A847ED0836F2485.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/Modules/ColorExtensions.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorPalettes.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "ColorPalettes",
+      "moduleOutputPath" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/Modules/ColorPalettes.swiftmodule",
+      "objects" : [
+        "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorPalettes.build/AnalogousPalette.swift.o",
+        "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorPalettes.build/SplitComplementaryPalette.swift.o",
+        "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorPalettes.build/TetradicPalette.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-O",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-module-cache-path",
+        "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorPalettes.build/ColorPalettes-Swift.h",
+        "-color-diagnostics",
+        "-swift-version",
+        "6",
+        "-sdk",
+        "/Applications/Xcode-16.0.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk",
+        "-F",
+        "/Applications/Xcode-16.0.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode-16.0.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode-16.0.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode-16.0.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode-16.0.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "swift_colorskit"
+      ],
+      "outputFileMapPath" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorPalettes.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorPalettes.build/AnalogousPalette.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorPalettes.build/SplitComplementaryPalette.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorPalettes.build/TetradicPalette.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/Modules/ColorPalettes.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/Sources/Color-Palettes/AnalogousPalette.swift",
+        "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/Sources/Color-Palettes/SplitComplementaryPalette.swift",
+        "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/Sources/Color-Palettes/TetradicPalette.swift"
+      ],
+      "tempsPath" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorPalettes.build",
+      "wholeModuleOptimization" : true
+    },
+    "C.ColorsKit-arm64-apple-macosx15.0-release.module" : {
+      "executable" : "/Applications/Xcode-16.0.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorsKit.build/sources",
+      "importPath" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/Sources/ColorsKit/ColorsKit.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/swift-version--4A847ED0836F2485.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/Modules/ColorExtensions.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/Modules/ColorPalettes.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorsKit.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "ColorsKit",
+      "moduleOutputPath" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/Modules/ColorsKit.swiftmodule",
+      "objects" : [
+        "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorsKit.build/ColorsKit.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-O",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-module-cache-path",
+        "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorsKit.build/ColorsKit-Swift.h",
+        "-color-diagnostics",
+        "-swift-version",
+        "6",
+        "-sdk",
+        "/Applications/Xcode-16.0.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk",
+        "-F",
+        "/Applications/Xcode-16.0.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode-16.0.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode-16.0.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode-16.0.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode-16.0.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "swift_colorskit"
+      ],
+      "outputFileMapPath" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorsKit.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorsKit.build/ColorsKit.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/Modules/ColorsKit.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/Sources/ColorsKit/ColorsKit.swift"
+      ],
+      "tempsPath" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorsKit.build",
+      "wholeModuleOptimization" : true
+    },
+    "C.ColorsKit_ExampleAppTarget-arm64-apple-macosx15.0-release.module" : {
+      "executable" : "/Applications/Xcode-16.0.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorsKit_ExampleAppTarget.build/sources",
+      "importPath" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/ColorPalettesExample/ColorPalettesExample/ColorPalettesExampleApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/ColorPalettesExample/ColorPalettesExample/ContentView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/swift-version--4A847ED0836F2485.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/Modules/ColorsKit.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorsKit_ExampleAppTarget.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "ColorsKit_ExampleAppTarget",
+      "moduleOutputPath" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/Modules/ColorsKit_ExampleAppTarget.swiftmodule",
+      "objects" : [
+        "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorsKit_ExampleAppTarget.build/ColorPalettesExampleApp.swift.o",
+        "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorsKit_ExampleAppTarget.build/ContentView.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-O",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-module-cache-path",
+        "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorsKit_ExampleAppTarget.build/ColorsKit_ExampleAppTarget-Swift.h",
+        "-color-diagnostics",
+        "-swift-version",
+        "6",
+        "-sdk",
+        "/Applications/Xcode-16.0.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk",
+        "-F",
+        "/Applications/Xcode-16.0.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode-16.0.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode-16.0.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode-16.0.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode-16.0.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "exampleapp"
+      ],
+      "outputFileMapPath" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorsKit_ExampleAppTarget.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorsKit_ExampleAppTarget.build/ColorPalettesExampleApp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorsKit_ExampleAppTarget.build/ContentView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/Modules/ColorsKit_ExampleAppTarget.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/ColorPalettesExample/ColorPalettesExample/ColorPalettesExampleApp.swift",
+        "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/ColorPalettesExample/ColorPalettesExample/ContentView.swift"
+      ],
+      "tempsPath" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorsKit_ExampleAppTarget.build",
+      "wholeModuleOptimization" : true
+    },
+    "C.ColorsKit_ExecutableTarget-arm64-apple-macosx15.0-release.module" : {
+      "executable" : "/Applications/Xcode-16.0.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorsKit_ExecutableTarget.build/sources",
+      "importPath" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/ColorPalettesExample/ExecutableTarget/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/swift-version--4A847ED0836F2485.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/Modules/ColorsKit.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorsKit_ExecutableTarget.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "ColorsKit_ExecutableTarget",
+      "moduleOutputPath" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/Modules/ColorsKit_ExecutableTarget.swiftmodule",
+      "objects" : [
+        "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorsKit_ExecutableTarget.build/main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-O",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-module-cache-path",
+        "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "ColorsKit_ExecutableTarget_main",
+        "-color-diagnostics",
+        "-swift-version",
+        "6",
+        "-sdk",
+        "/Applications/Xcode-16.0.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk",
+        "-F",
+        "/Applications/Xcode-16.0.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode-16.0.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode-16.0.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode-16.0.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode-16.0.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "exampleapp"
+      ],
+      "outputFileMapPath" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorsKit_ExecutableTarget.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorsKit_ExecutableTarget.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/Modules/ColorsKit_ExecutableTarget.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/ColorPalettesExample/ExecutableTarget/main.swift"
+      ],
+      "tempsPath" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorsKit_ExecutableTarget.build",
+      "wholeModuleOptimization" : true
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "ColorExtensions" : [
+      "/Applications/Xcode-16.0.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "ColorExtensions",
+      "-package-name",
+      "swift_colorskit",
+      "-whole-module-optimization",
+      "-num-threads",
+      "8",
+      "-c",
+      "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/Sources/Color-Extensions/Color-Extensions.swift",
+      "-I",
+      "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-O",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-module-cache-path",
+      "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorExtensions.build/ColorExtensions-Swift.h",
+      "-color-diagnostics",
+      "-swift-version",
+      "6",
+      "-sdk",
+      "/Applications/Xcode-16.0.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk",
+      "-F",
+      "/Applications/Xcode-16.0.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode-16.0.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode-16.0.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode-16.0.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode-16.0.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "swift_colorskit",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode-16.0.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "ColorPalettes" : [
+      "/Applications/Xcode-16.0.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "ColorPalettes",
+      "-package-name",
+      "swift_colorskit",
+      "-whole-module-optimization",
+      "-num-threads",
+      "8",
+      "-c",
+      "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/Sources/Color-Palettes/AnalogousPalette.swift",
+      "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/Sources/Color-Palettes/SplitComplementaryPalette.swift",
+      "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/Sources/Color-Palettes/TetradicPalette.swift",
+      "-I",
+      "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-O",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-module-cache-path",
+      "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorPalettes.build/ColorPalettes-Swift.h",
+      "-color-diagnostics",
+      "-swift-version",
+      "6",
+      "-sdk",
+      "/Applications/Xcode-16.0.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk",
+      "-F",
+      "/Applications/Xcode-16.0.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode-16.0.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode-16.0.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode-16.0.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode-16.0.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "swift_colorskit",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode-16.0.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "ColorsKit" : [
+      "/Applications/Xcode-16.0.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "ColorsKit",
+      "-package-name",
+      "swift_colorskit",
+      "-whole-module-optimization",
+      "-num-threads",
+      "8",
+      "-c",
+      "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/Sources/ColorsKit/ColorsKit.swift",
+      "-I",
+      "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-O",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-module-cache-path",
+      "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorsKit.build/ColorsKit-Swift.h",
+      "-color-diagnostics",
+      "-swift-version",
+      "6",
+      "-sdk",
+      "/Applications/Xcode-16.0.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk",
+      "-F",
+      "/Applications/Xcode-16.0.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode-16.0.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode-16.0.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode-16.0.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode-16.0.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "swift_colorskit",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode-16.0.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "ColorsKit_ExampleAppTarget" : [
+      "/Applications/Xcode-16.0.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "ColorsKit_ExampleAppTarget",
+      "-package-name",
+      "exampleapp",
+      "-whole-module-optimization",
+      "-num-threads",
+      "8",
+      "-c",
+      "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/ColorPalettesExample/ColorPalettesExample/ColorPalettesExampleApp.swift",
+      "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/ColorPalettesExample/ColorPalettesExample/ContentView.swift",
+      "-I",
+      "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-O",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-module-cache-path",
+      "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorsKit_ExampleAppTarget.build/ColorsKit_ExampleAppTarget-Swift.h",
+      "-color-diagnostics",
+      "-swift-version",
+      "6",
+      "-sdk",
+      "/Applications/Xcode-16.0.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk",
+      "-F",
+      "/Applications/Xcode-16.0.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode-16.0.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode-16.0.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode-16.0.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode-16.0.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "exampleapp",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode-16.0.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "ColorsKit_ExecutableTarget" : [
+      "/Applications/Xcode-16.0.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "ColorsKit_ExecutableTarget",
+      "-package-name",
+      "exampleapp",
+      "-whole-module-optimization",
+      "-num-threads",
+      "8",
+      "-c",
+      "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/ColorPalettesExample/ExecutableTarget/main.swift",
+      "-I",
+      "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-O",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-module-cache-path",
+      "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "ColorsKit_ExecutableTarget_main",
+      "-color-diagnostics",
+      "-swift-version",
+      "6",
+      "-sdk",
+      "/Applications/Xcode-16.0.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk",
+      "-F",
+      "/Applications/Xcode-16.0.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode-16.0.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode-16.0.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode-16.0.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode-16.0.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "exampleapp",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode-16.0.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "ColorExtensions" : [
+
+    ],
+    "ColorPalettes" : [
+      "ColorExtensions"
+    ],
+    "ColorsKit" : [
+      "ColorPalettes",
+      "ColorExtensions"
+    ],
+    "ColorsKit_ExampleAppTarget" : [
+      "ColorsKit",
+      "ColorPalettes",
+      "ColorExtensions"
+    ],
+    "ColorsKit_ExecutableTarget" : [
+      "ColorsKit",
+      "ColorPalettes",
+      "ColorExtensions"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "writeCommands" : {
+    "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorExtensions.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/Sources/Color-Extensions/Color-Extensions.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorExtensions.build/sources"
+    },
+    "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorPalettes.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/Sources/Color-Palettes/AnalogousPalette.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/Sources/Color-Palettes/SplitComplementaryPalette.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/Sources/Color-Palettes/TetradicPalette.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorPalettes.build/sources"
+    },
+    "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorsKit.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/Sources/ColorsKit/ColorsKit.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorsKit.build/sources"
+    },
+    "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorsKit_ExampleApp.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorExtensions.build/Color-Extensions.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorPalettes.build/AnalogousPalette.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorPalettes.build/SplitComplementaryPalette.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorPalettes.build/TetradicPalette.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorsKit.build/ColorsKit.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorsKit_ExampleAppTarget.build/ColorPalettesExampleApp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorsKit_ExampleAppTarget.build/ContentView.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorsKit_ExampleApp.product/Objects.LinkFileList"
+    },
+    "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorsKit_ExampleAppTarget.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/ColorPalettesExample/ColorPalettesExample/ColorPalettesExampleApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/ColorPalettesExample/ColorPalettesExample/ContentView.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorsKit_ExampleAppTarget.build/sources"
+    },
+    "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorsKit_ExampleApplication.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorExtensions.build/Color-Extensions.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorPalettes.build/AnalogousPalette.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorPalettes.build/SplitComplementaryPalette.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorPalettes.build/TetradicPalette.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorsKit.build/ColorsKit.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorsKit_ExecutableTarget.build/main.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorsKit_ExampleApplication.product/Objects.LinkFileList"
+    },
+    "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorsKit_ExecutableTarget.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/ColorPalettesExample/ExecutableTarget/main.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorsKit_ExecutableTarget.build/sources"
+    },
+    "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/swift-version--4A847ED0836F2485.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode-16.0.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/swift-version--4A847ED0836F2485.txt"
+    }
+  }
+}
