@@ -1,6 +1,0 @@
-version: "Apple Swift version 6.0 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)"
-options: "1dca15f664c27318ca2c15aeadb10a51192c13035e0e4f6af41866ae2be3349f"
-build_start_time: [1731377094, 133136000]
-build_end_time: [1731377094, 283903000]
-inputs:
-  "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/Sources/ColorsKit/ColorsKit.swift": [1731376211, 248076754]

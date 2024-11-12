@@ -1,8 +1,0 @@
-version: "Apple Swift version 6.0 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)"
-options: "1c62e31d46d97bc7b718c1388cce82a49126be7a4996aab3068baedf1532fa1c"
-build_start_time: [1731377093, 644448000]
-build_end_time: [1731377094, 55403000]
-inputs:
-  "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/Sources/Color-Palettes/AnalogousPalette.swift": [1731376125, 685919045]
-  "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/Sources/Color-Palettes/SplitComplementaryPalette.swift": [1731371704, 807123703]
-  "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/Sources/Color-Palettes/TetradicPalette.swift": [1731371704, 798615850]

@@ -1,6 +1,0 @@
-version: "Apple Swift version 6.0 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)"
-options: "2d062a2d34c9a77dfd58395e0ca12fa2f0f937e65540972b22f8d816a0564ae8"
-build_start_time: [1731377222, 273522000]
-build_end_time: [1731377222, 467921000]
-inputs:
-  "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/ColorPalettesExample/ExecutableTarget/main.swift": [1731377180, 499635850]

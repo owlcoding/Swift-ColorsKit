@@ -1,4 +1,0 @@
-module ColorsKit {
-    header "/Users/kender/Desktop/Projekciki/Swift-ColorsKit/ExampleApp/.build/arm64-apple-macosx/release/ColorsKit.build/ColorsKit-Swift.h"
-    requires objc
-}
