@@ -95,6 +95,12 @@ For more detailed documentation and examples, refer to the source code comments 
 
 This repository includes a simple example application located in the `ExampleApp` directory. The application demonstrates the usage of various color manipulation features and color palettes provided by ColorsKit. You can find the application package at: `ExampleApp/Package.swift`. To open the example app, navigate to `ColorPalettesExample.xcodeproj` inside the `ColorPalettesExample` folder. The app is designed to give you a quick, hands-on overview of how to integrate ColorsKit into your own projects.
 
+### Running the Example App
+
+1. Open the `ExampleApp/ColorPalettesExample` folder in Finder and double-click `ColorPalettesExample.xcodeproj` to launch Xcode.
+2. Select the `ColorPalettesExampleApp` scheme and click **Run** to build and start the sample application.
+3. The example package also provides a command-line target named `ColorsKit_ExecutableTarget`. Running `swift run ColorsKit_ExecutableTarget` prints a short introduction starting with `"Hello from ColorsKit!"` describing the library and pointing you to the example app.
+
 ## Contributing
 
 Feel free to open issues or submit pull requests if you have any suggestions or improvements.
